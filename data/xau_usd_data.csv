@@ -1,0 +1,8 @@
+import yfinance as yf
+import pandas as pd
+
+# Download de data voor XAU/USD
+data = yf.download("XAUUSD=X", start="2022-01-01", end="2023-01-01", interval="1d")
+
+# Opslaan als CSV-bestand in de map 'data'
+data.to_csv('./data/xau_usd_data.csv')

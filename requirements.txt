@@ -1,0 +1,6 @@
+pandas
+yfinance
+numpy
+talib
+matplotlib
+alpaca-trade-api
